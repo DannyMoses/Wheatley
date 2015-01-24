@@ -51,6 +51,6 @@ void CVector::GetComponents () {
 
 }
 
-} /* namespace MVector */
+} /* namespace Wheatley */
 
 

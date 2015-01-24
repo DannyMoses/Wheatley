@@ -155,5 +155,5 @@ public:
 
 };
 
-} /* namespace MVector */
+} /* namespace Wheatley */
 
