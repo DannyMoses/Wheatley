@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 	Wheatley::CVector Vector2;
 	Wheatley::CVector Resultant;
 
-	std::cout << "Welcome to Moses Vector, the simple vector calculator!" << std::endl;
+	std::cout << "Welcome to Wheatley, the simple vector calculator!" << std::endl;
 	std::cout << "What is the x component of the first vector?";
 	std::cin >> Vector1.XComponent;
 	std::cout << "What is the y component of the first vector?";
