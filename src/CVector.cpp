@@ -44,11 +44,16 @@ CVector CVector::operator = (const CVector& param) {
 	return *this;
 }
 
-void CVector::GetComponents () {
+void CVector::CalcComponents () {
 
 	this->XComponent = this->Magnitude * cos(toRadian(this->Theta));
 	this->YComponent = this->Magnitude * sin(toRadian(this->Theta));
 
+}
+
+void CVector::CalcMagnitude() {
+
+	this->Magnitude = hypot(this->XComponent, this->YComponent);
 }
 
 } /* namespace Wheatley */

@@ -1,5 +1,4 @@
-#include "CVector.h"
-#include "OtherOperations.h"
+#include "Wheatley.h"
 #include <iostream>
 #include <string>
 #include <sstream>

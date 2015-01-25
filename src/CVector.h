@@ -151,7 +151,12 @@ public:
 	/** takes the magnitude and angle a vector makes with the x-axis and splits it into its X and Y components
 	 *
 	 */
-	void GetComponents();
+	void CalcComponents();
+
+	/** takes the x and y components and calculates the magnitude of the vector
+	 *
+	 */
+	void CalcMagnitude();
 
 };
 

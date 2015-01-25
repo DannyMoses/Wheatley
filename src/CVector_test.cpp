@@ -9,4 +9,4 @@
 
 namespace Wheatley {
 
-} /* namespace MVector */
+} /* namespace Wheatley */
