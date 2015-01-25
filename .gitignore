@@ -29,5 +29,5 @@
 
 # Eclipse-generated internal files
 Debug/
-.project
-.cproject
+*.project
+*.cproject
