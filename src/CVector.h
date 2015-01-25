@@ -5,11 +5,24 @@
  *      Author: dmoses
  */
 #include <cmath>
+#include <iostream>
+#include <string>
 
 #pragma once
 
-#define PI 3.14159265
+#define PI 3.14159265 /** The value of PI for this library, set to 8 decimal places */
+#define FIRST_QUADRANT 1
+#define SECOND_QUADRANT 2
+#define THIRD_QUADRANT 3
+#define FOURTH_QUADRANT 4
+#define EAST 0
+#define NORTH 90
+#define WEST 180
+#define SOUTH 270
 
+/** The namespace for all the items in this library
+ *
+ */
 namespace Wheatley {
 
 class CVector {
@@ -32,6 +45,11 @@ public:
 	/** Default constructor for initializing a two dimensional cartesian vector
 	 */
 	CVector();
+	/** Constructor for initializng a two dimensional cartesian vector with magnitude and direction
+	 * @param magnitude the magnitude of the vector
+	 * @param theta the direction of the vector
+	 */
+
 	/** Default destructor for deleting a two dimensional cartesian vector
 	 */
 	virtual ~CVector();
@@ -157,6 +175,16 @@ public:
 	 *
 	 */
 	void CalcMagnitude();
+
+	/** calculates the Theta value based on the x and y components of the vector by getting the arctan value
+	 * from them
+	 */
+	void CalcTheta();
+
+	/** creates the vector based on user input
+	 *
+	 */
+	void CreateVector();
 
 };
 
