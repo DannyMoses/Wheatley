@@ -18,6 +18,7 @@ int main(int argc, char **argv) {
 	Wheatley::CVector Vector1;
 	Wheatley::CVector Vector2;
 	Wheatley::CVector Resultant;
+	double scalarProduct;
 
 	std::cout << "Welcome to Wheatley, the simple vector calculator!" << std::endl;
 	std::cout << "What is the x component of the first vector?";
@@ -29,10 +30,9 @@ int main(int argc, char **argv) {
 	std::cout << "What is the y component of the second vector?";
 	std::cin >> Vector2.YComponent;
 
-	Resultant = Vector1 - Vector2;
-	std::cout << "Resultant Vector: " << "(" << Resultant.XComponent << ", " << Resultant.YComponent << ")";
+	scalarProduct = Wheatley::dotProduct(Vector1, Vector2);
 
-
+	std::cout << scalarProduct;
 
 	return 0;
 }

@@ -11,7 +11,7 @@ namespace Wheatley {
 
 double dotProduct(CVector Vector1, CVector Vector2) {
 
-	return Vector1.Magnitude * Vector2.Magnitude * (Vector2.Theta - Vector1.Theta);
+	return (Vector1.XComponent * Vector2.XComponent) + (Vector1.YComponent * Vector2.YComponent);
 }
 
 
