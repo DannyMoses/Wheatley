@@ -10,7 +10,20 @@
 
 #pragma once
 
-#define PI 3.14159265 /** The value of PI for this library, set to 8 decimal places */
+/*! \file CVector.h
+    \brief Header file for the CVector class
+
+    This is to give a reference for the defines
+*/
+
+/*!
+  \def PI 3.14159265
+  The value of pi to eight decimal places
+*/
+
+
+
+#define PI 3.14159265
 #define FIRST_QUADRANT 1
 #define SECOND_QUADRANT 2
 #define THIRD_QUADRANT 3
@@ -45,10 +58,6 @@ public:
 	/** Default constructor for initializing a two dimensional cartesian vector
 	 */
 	CVector();
-	/** Constructor for initializng a two dimensional cartesian vector with magnitude and direction
-	 * @param magnitude the magnitude of the vector
-	 * @param theta the direction of the vector
-	 */
 
 	/** Default destructor for deleting a two dimensional cartesian vector
 	 */
