@@ -1,3 +1,7 @@
+.tabs {
+	border-bottom: 1px solid #5373B4;
+}
+
 .tabs, .tabs2, .tabs3 {
     width: 100%;
     z-index: 101;
